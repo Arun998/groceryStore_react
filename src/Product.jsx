@@ -39,7 +39,7 @@ function Product() {
         <SearchIcon className="icon" />
       </div>
       {loading ? (
-        <h1>...Loading</h1>
+        <h1>...Loading Data</h1>
       ) : (
         <div className="container">
           {data
